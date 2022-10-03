@@ -16,11 +16,11 @@
         android:layout_marginBottom="12dp"
         android:background="@drawable/ic_add_btn"
         android:elevation="10dp"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
+
+    <!--media controll container-->
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                     android:valueTo="100"
                     app:labelBehavior="gone"
                     app:thumbColor="#949494"
-                    app:trackColorActive="@color/grad_pink1"
+                    app:trackColorActive="@color/pink_prim"
                     app:trackColorInactive="#B5B5B5" />
 
 
