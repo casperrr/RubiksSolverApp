@@ -10,17 +10,31 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/addButton"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="12dp"
-        android:background="@drawable/ic_add_btn"
+        android:background="@drawable/add_button"
         android:elevation="10dp"
         app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
         app:layout_constraintEnd_toEndOf="parent"/>
 
 
-    <!--media controll container-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/bg_algo_container"
+        android:elevation="10dp">
+
+<!--        ermmm well I need a text thing showing the algorythms here and a progress bar bellow so remeber to do that casper-->
+
+
+    </LinearLayout>
+
     <RelativeLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
@@ -31,7 +45,7 @@
 
 
         <LinearLayout
-            android:id="@+id/bottomNavigationView"
+            android:id="@+id/bottomMediaControls"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:background="@drawable/bg_media_control"
@@ -107,4 +121,5 @@
         </LinearLayout>
 
     </RelativeLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
